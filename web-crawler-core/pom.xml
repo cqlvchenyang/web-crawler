@@ -5,7 +5,12 @@
     <artifactId>web-crawler-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>net.lvcy</groupId>
   <artifactId>web-crawler-core</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>net.lvcy</groupId>
+  		<artifactId>web-crawler-fetcher</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>

@@ -15,7 +15,7 @@ public class GeneraicUrl extends BasePooledUrl{
 	private AtomicReference<PoolType> type=new AtomicReference<PoolType>();
 	private volatile int weight=0;
 	public GeneraicUrl(String url) throws URISyntaxException, IllegalArgumentException {
-		this(url,PoolType.NEW);
+		this(url,PoolType.UNKNOWN);
 	}
 	public GeneraicUrl(String url,PoolType type) throws URISyntaxException,IllegalArgumentException{
 		url=format(url);

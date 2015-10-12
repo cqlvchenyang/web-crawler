@@ -22,5 +22,9 @@ public enum PoolType {
 	/**
 	 * 无效的url
 	 */
-	INVALIDATE
+	INVALIDATE,
+	/**
+	 * 状态未知
+	 */
+	UNKNOWN
 }

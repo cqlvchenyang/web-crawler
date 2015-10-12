@@ -2,6 +2,7 @@ package net.lvcy.pool;
 
 public interface UrlPool {
 
+	final int a=10;
 	/**
 	 * 获取一个还未被抓取的url
 	 * @return
@@ -26,5 +27,10 @@ public interface UrlPool {
 	 * 关闭资源池
 	 */
 	void close();
+	/**
+	 * 获取url的类型
+	 * @param url
+	 * @return
+	 */
 
 }
